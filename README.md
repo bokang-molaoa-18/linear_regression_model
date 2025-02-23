@@ -1,16 +1,16 @@
-##Linear Regression in Rust with Burn Library
+**Linear Regression in Rust with Burn Library**
 
-###Overview
+**Overview**
 This project implements a simple linear regression model using Rust and the Burn library (version 0.16.0). The goal is to predict the function y = 2x + 1 using synthetic training data with added noise. The model is trained using stochastic gradient descent (SGD) and evaluated on unseen data.
 
-###Requirements
+**Requirements**
 Ensure you have the following installed before starting the project:
 
 Rust – Install from Rust Lang
 Rust Rover IDE – Download from JetBrains
 Git – Install from Git SCM
 
-###Setup Instructions
+**Setup Instructions**
 1. Install Rust and Verify Installation
 rustup update
 rustc --version
@@ -38,11 +38,11 @@ textplots = "0.8.6"
 cargo run
 This command compiles and runs the Rust project.
 
-###Code Structure
+**Code Structure**
 main.rs – Contains the implementation of the linear regression model.
 Cargo.toml – Manages project dependencies.
 
-###Implementation Details
+**Implementation Details** 
 Data Generation: Creates a synthetic dataset with random noise.
 Model Definition: Implements a linear regression model using the Burn library.
 Training Process: Uses stochastic gradient descent (SGD) to minimize the loss.
@@ -50,12 +50,12 @@ Evaluation: Tests the model on unseen data and visualizes the results.
 Results and Reflection
 The model successfully learns to approximate y = 2x + 1.
 
-###Challenges faced:
+**Challenges faced:**
 - Understanding how Burn handles tensor operations.
 - Adjusting hyperparameters such as learning rate and batch size.
 - Configuring dependencies correctly.
 - Using Rover Rust IDE.
 - 
-###Future improvements:
-- Extend to multiple variables (multi-variable regression).
+**Future improvements:**
+  - Extend to multiple variables (multi-variable regression).
 - Implement deep learning approaches.
